@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Xie Bi - 歇币</title>
-
+<link rel="shortcut icon" href="logo.png" type="image/x-icon" />
 <style>
 html, body {
   width: 100%;
@@ -39,7 +39,7 @@ svg {
 
 .text, .offscreen-text {
   width: 100%;
-  top: 50%;
+  top: 30%;
   transform: translateY(-50%);
   display: block;
   position: absolute;
@@ -55,11 +55,44 @@ svg {
   position: absolute;
 }
 
+.about {
+  width: 100%;
+  top: 60%;
+  transform: translateY(-50%);
+  display: block;
+  position: absolute;
+  margin: 0;
+  color:#e7e7e7;
+  font-size: 18px;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: 100;
+}
+.aboutHeco {
+  width: 100%;
+  top: 70%;
+  transform: translateY(-50%);
+  display: block;
+  position: absolute;
+  margin: 0;
+  color:#e7e7e7;
+  font-size: 18px;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: 100;
+}
+
+.aboutHeco a:link {
+  color:#9cb4e9;
+}
+.aboutHeco a:visited {
+  color:#9cb4e9;
+}
+
 </style>
 </head>
 <body>
 
 <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:100" rel="stylesheet">
 
 <script src="js/CSSPlugin.min.js"></script>
 <script src="js/EasePack.min.js"></script>
@@ -287,7 +320,8 @@ input.focus();
 addPrompt(0);
 </script>
 <div style="text-align:center;">
-<p> <a href="#" target="_blank"> </a></p>
+<p id="about" class="about">Xie Bi 译为歇币。该项目皆在倡导一种慢生活的态度；希望人们在追梦的路上不要忘记歇息，路途上的风景才是最美丽的。</p>
+<p class=aboutHeco>Heco上链信息查询：<a href="https://hecoinfo.com/token/0x6dbe531f3176231c2c31df947d4df7360d7a9cff?a=0x4cf049aaf78a941c6b872f22c5c8583536beae66" target="_blank">Hecoinfo</a></p>
 </div>
 </body>
 </html>
